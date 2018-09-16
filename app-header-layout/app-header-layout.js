@@ -129,6 +129,7 @@ Polymer({
         /* Create a stacking context here so that all children appear below the header. */
         position: relative;
         z-index: 0;
+        @apply --app-header-layout-content-mixin;
       }
 
       @media print {
